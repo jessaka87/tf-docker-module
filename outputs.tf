@@ -10,5 +10,5 @@ output "ecs_task_definition_arn" {
 
 output "ecs_service_arn" {
   description = "ARN of the ECS service"
-  value       = aws_ecs_service.this.arn
+  value       = aws_ecs_cluster.this.arn
 }
